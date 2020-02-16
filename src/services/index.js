@@ -1,5 +1,5 @@
 export const resolveBaseUrl = () => { //eslint-disable-line
-  const testUrl = 'http://10.0.2.2:3001/location';
+  const testUrl = 'https://weatherappekraal.herokuapp.com/location';
   const env = process.env.NODE_ENV;
   const baseUrl = ['test', 'development'].includes(env)
     ? testUrl

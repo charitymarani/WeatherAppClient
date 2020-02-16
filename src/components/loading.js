@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   loadingHeader: {
-    height: 290,
+    height: 500,
     backgroundColor: '#589BC7',
     justifyContent: 'center',
     alignItems: 'center',
